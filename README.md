@@ -9,7 +9,7 @@ This project was created for my private garden. Base on ESP8266 module and two s
 # Features:
 
 * REST api
-* all 
+* all custom configs are store in EEPROM
 * Wheater forecast integration
 * Collecting 24h average rainfall
 * Set how long time channel have to be active, enable and dissable channel, set time to active (24h notation), and how many times all channels will be activated (loops)
@@ -46,9 +46,13 @@ example:
 http://192.168.1.170/api?command=config&arg=31,2,22,30,60,60,60,60,150,150,150,150
 
 31,- mask 31 -> 0x1F : channel 7,6,5 is dissabled
+
 2,- after activated it will take two times, means: ch0 ch1 ch2 ch3 ch4 ch0 ch1 ch2 ch3 ch4 and stop
+
 22,30 - it means irrigation will run at 22:30 (10:30p.m.)
+
 ,60,60,60,60, - channels 0 to 3 will run for 10 minutes
+
 150,150,150,150 - and channels 4 to 7 will run for 25 minutes
 
 
