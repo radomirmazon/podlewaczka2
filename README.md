@@ -56,4 +56,11 @@ http://192.168.1.170/api?command=config&arg=31,2,22,30,60,60,60,60,150,150,150,1
 * ,60,60,60,60, - channels 0 to 3 will run for 10 minutes
 * 150,150,150,150 - and channels 4 to 7 will run for 25 minutes
 
+# Hardware
 
+This version was built for 12V DC electrovalves. Most garden installation are design for 24V AC electrovalve, 
+and in this case you need use 12V DC relays for control electrovalve, or develop new solution. 
+
+(sorry about schematic, I don't have time to use CAD) 
+
+![block schemat](https://raw.githubusercontent.com/radomirmazon/podlewaczka2/master/schematic.png)
