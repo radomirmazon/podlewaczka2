@@ -48,7 +48,7 @@ This project was created for my private garden. Base on ESP8266 module and two s
 
  ch0 - ch7 - time in 10 x seconds to run channel active. For example 60 meand 600 seconds = 10 minutes.
 
-#custom config example: 
+# Custom config example: 
 
 http://192.168.1.170/api?command=config&arg=31,2,22,30,60,60,60,60,150,150,150,150
 
