@@ -64,3 +64,19 @@ and in this case you need use 12V DC relays for control electrovalve, or develop
 (sorry about schematic, I don't have time to use CAD) 
 
 ![block schemat](https://raw.githubusercontent.com/radomirmazon/podlewaczka2/main/schemat.png)
+
+# Setup
+
+* Setup your Arduino IDE. see https://randomnerdtutorials.com/esp32-http-get-open-weather-map-thingspeak-arduino/ section Prerequisites
+
+* get your API KEY and your location for weather forecast on https://openweathermap.org/ . 
+ 
+  see instruction on https://randomnerdtutorials.com/esp32-http-get-open-weather-map-thingspeak-arduino/ section: "Using OpenWeatherMap API" 
+  
+  ...after that modify WEATHER_GET define in configConst.h
+
+
+* set your WiFi SID and password in  configConst.h
+
+* set your time GMT offset in seconds, see GMT_OFFSET const in configConst.h  
+
