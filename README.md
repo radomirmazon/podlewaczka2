@@ -63,4 +63,4 @@ and in this case you need use 12V DC relays for control electrovalve, or develop
 
 (sorry about schematic, I don't have time to use CAD) 
 
-![block schemat](https://raw.githubusercontent.com/radomirmazon/podlewaczka2/master/schematic.png)
+![block schemat](https://raw.githubusercontent.com/radomirmazon/podlewaczka2/main/schemat.png)
