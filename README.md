@@ -1,9 +1,6 @@
 # podlewaczka2
 Garden Irrigation Controller  base on ESP-8266 
 
-# podlewaczka2
-Garden Irrigation Controller  base on ESP-8266 
-
 This project was created for my private garden. Base on ESP8266 module and two simple ttl switch registers 74HC595 for extend output ports. Device has 8 channels output, with 8 green leds for indicates witch channel is active, and one led for weather indicator. As input is only one button with long press detect. You can select which channel will be active by pressing, or by long press you can active automation irrigation. 
 
 # Features:
@@ -25,6 +22,7 @@ This project was created for my private garden. Base on ESP8266 module and two s
 
 # REST API:
 
+* http://{IP}/api?ch=0&val=1 - take on specific channel 0 (and take off any others).
 * http://{IP}/api?command=startAuto - activate irrication process (the same as timer do)
 * http://{IP}/api?command=activate - activated the timer (for set specyfic time like 20:30 for example)
 * http://{IP}/api?command=deactivate - deactived the timer (no automation run)
